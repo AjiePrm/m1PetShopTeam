@@ -1,0 +1,33 @@
+/* Untuk Tablet */
+@media only screen and (max-width: 1000px){
+  .header-right a{
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .link:hover {
+    color: #000000 ;
+    padding: 0 30px;
+    opacity: 0.3px;
+    font-size: 10px;
+    text-decoration: underline #da4525;
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+  .container-header span{
+    font-size: 32px;
+  }
+}
+  /* Untuk Smartphone */
+  @media only screen and (max-width: 670px) {
+    .header-right{
+      display:none;
+    }
+    .menu-icon{
+      color: #ad5425;
+      font-size: 32px;
+      line-height: 30px;
+    }
+
+  }

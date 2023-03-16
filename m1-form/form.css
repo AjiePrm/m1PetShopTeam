@@ -1,0 +1,87 @@
+/*START STYLE CSS FOR UNIVERSAL */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*END STYLE CSS FOR UNIVERSAL */
+
+/*START STYLE CSS FORMULIR */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+label {
+  margin-top: 20px;
+}
+input[type="checkbox"] {
+  margin: 0;
+  margin-top: 10px;
+}
+input[type="submit"] {
+  background-color: #ad5425;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.container-form {
+  width: 35%;
+  padding: 16px;
+  margin: 0 auto;
+}
+.form-logo {
+  text-align: center;
+}
+.form-logo img {
+  width: 30%;
+}
+.form-detail {
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(173, 84, 37, 0.2);
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 8px;
+}
+/*END STYLE CSS FORMULIR */
+
+/* START RESPONSIVE STYLE CSS FORMULIR */
+
+/*untuk layar device berukuran besar*/
+@media all and (max-width: 1000px) {
+  .container-form {
+    width: 50%;
+  }
+}
+
+/*untuk layar device berukuran sedang*/
+@media all and (max-width: 670px) {
+  .container-form {
+    width: 80%;
+  }
+}
+
+/*untuk layar device berukuran kecil*/
+@media all and (max-width: 450px) {
+  .container-form {
+    width: 100%;
+  }
+}
+/* END RESPONSIVE STYLE CSS FORMULIR */

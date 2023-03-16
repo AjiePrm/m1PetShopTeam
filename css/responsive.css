@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1000px){
+
+    .img-wrapper-child img{
+        width: 100%;
+    }
+    
+    .text-wrapper h1{
+        font-size: 32px;
+        padding-left: 20px;
+    }
+
+    .set-icon{
+        display: none;
+    }
+
+    .icon-res{
+        padding: 30px;
+        font-size: 32px;
+        transition: all 0.5s;
+    }
+    
+    .img-wrapper{
+        margin-left: 0;
+       
+    }
+    .left-dikit{
+        margin-left: 18px;
+    }
+
+    .set-icon-bottom{
+        display: block;
+    }
+    .set-icon-bottom a{
+        font-size: 32;
+    }
+    .fb{
+        color: #4267B2;
+        opacity: 0.5;
+    }
+
+    .fb:hover{
+        opacity: 1;
+    }
+
+    .tw{
+        color: #1DA1F2;
+        opacity: 0.5;
+    }
+    .tw:hover{
+        opacity: 1;
+    }
+
+    .ig{
+        color: #f09433; 
+        opacity: 0.5;
+    }
+
+    .ig:hover{
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    .main{
+        padding: 0 20px;
+        height: 650px;
+    }
+    
+    .pawholder img{
+        padding-top: 0;
+    }
+
+    .text-wrapper{
+        width: 100%;
+    }
+    .img-wrapper{
+        display: none;
+    }
+
+    .container{
+        max-width: 670px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .left-dikit{
+        margin-left: 18px;
+    }
+
+    .text-wrapper h1{
+        font-size: 24px;
+    }
+    
+    .set-icon-bottom{
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .icon-res{
+        text-decoration: none;
+        display: inline-block;
+        font-size: 42px;
+        padding-top: 0;
+    }
+
+    .main-text{
+        padding: 100px 0 50px 0;
+        width: 100%;
+    }
+
+    .btn{
+        opacity: 1;
+        height: 40px;
+        width: 50%;
+    }
+
+    .btn-main{
+        width: 100%;
+        margin-right: 33px;
+        line-height: 40px;
+        margin-left: 0;
+        padding: 0 20px;
+    }
+    .btn-main a{
+        font-size: 24px;
+    }
+
+    .space-right{
+        display: block;
+        margin-right: 33px;
+    }
+
+    .img-res{
+        display: block;
+        background-size: cover;
+    }
+
+    .img-res img{
+        width:100%;
+        transition: all 0.5s;
+    }
+
+    
+}
+
+
+.icon-res{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.space-right{
+    display: none;
+}

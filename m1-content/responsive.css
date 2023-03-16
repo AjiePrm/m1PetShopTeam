@@ -1,0 +1,45 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .heading h2 {
+    font-size: 20px;
+  }
+  .benefit {
+    width: 50%;
+    padding-bottom: 50px;
+  }
+  .benefit-wrapper {
+    height: 800px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .about-us {
+    width: 100%;
+    padding-bottom: 50px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+
+  .about-us h2 {
+    font-size: 24px;
+    padding-bottom: 25px;
+  }
+
+  .btn-content {
+    width: 100%;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+
+  .benefit {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .benefit-wrapper {
+    height: 1300px;
+  }
+}

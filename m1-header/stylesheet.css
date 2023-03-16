@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Poppins";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container-header {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: #ffe3e3;
+    position :fixed;
+    top: 0; 
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 90px;
+    margin-top: 10px;
+    
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: 40px;
+  }
+  
+  .link{
+    line-height: 65px;
+    font-size: 18px;
+    padding: 0 30px;
+    color: #000000;
+    float: left;
+    opacity: 0.5;
+    transition: all 0.5s;
+    text-decoration: none;
+    
+ }
+  
+  .link:hover {
+    color: #000000 ;
+    padding: 0 30px;
+    opacity: 0.3px;
+    font-size: 20px;
+    text-decoration: underline #da4525;
+    transition: 0.5s ease;
+    opacity: 1;
+
+ }
+ 
+ .btn-cart img {
+    width: 50px;
+    opacity: 0.5;
+    margin-top: 20px;
+    padding-left: 30px;
+  }
+
+  .btn-cart img:hover {
+    filter: brightness(50%);
+    transform: scale(1.1);
+    opacity: 1;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    color: #ffe3e3;
+    float: right;
+    font-size: 50px;
+    padding: 10px 0;
+    /* Gantikan property display ke none */
+    display:none;
+    margin-right: 5px;
+  }
+  
+  
