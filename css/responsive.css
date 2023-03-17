@@ -1,4 +1,15 @@
 @media only screen and (max-width: 1000px){
+    .main-wrapper{
+        background-image: none;
+    }
+
+    .custom-shape-divider-bottom-1679064537 svg{
+        display: none;
+    }
+
+    .main{
+        margin-top: 50px;
+    }
 
     .img-wrapper-child img{
         width: 100%;

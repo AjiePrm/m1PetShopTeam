@@ -1,5 +1,10 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+
+  .about-us {
+    padding: 30px 10px 30px 10px;
+  }
+
   .heading h2 {
     font-size: 20px;
   }
